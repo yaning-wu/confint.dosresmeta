@@ -2,6 +2,8 @@
 
 Function to compute confidence intervals for heterogeneity measures I<sup>2</sup>, H, and H<sup>2</sup> using methods described in Higgins and Thompson (1).
 
+Created by Yaning Wu for possible inclusion in Alessio Crippa's "dosresmeta" package.
+
 ## Arguments
 **object**
 object of class "dosresmetaObject".
