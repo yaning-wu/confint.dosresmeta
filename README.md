@@ -2,7 +2,7 @@
 
 Function to compute confidence intervals for heterogeneity measures I<sup>2</sup>, H, and H<sup>2</sup> using methods described in Higgins and Thompson (1).
 
-Created by Yaning Wu for possible inclusion in Alessio Crippa's ["dosresmeta" package](https://alecri.github.io/software/dosresmeta).
+Created by Yaning Wu for possible inclusion in Alessio Crippa's excellent R package for dose-response meta-analysis, [**dosresmeta**](https://alecri.github.io/software/dosresmeta).
 
 ## Arguments
 **object**
