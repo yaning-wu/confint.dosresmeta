@@ -1,20 +1,3 @@
-## Arguments
-# **object**
-# object of class "dosresmetaObject".
-
-
-# **round_h**
-# optional integer to specify number of decimal places to which estimates of H and its confidence interval should be rounded. The default is 2.
-
-# **round_h2**
-# optional integer to specify number of decimal places to which estimates of H^2 and its confidence interval should be rounded. The default is 2.
-
-# **round_i2**
-# optional integer to specify number of decimal places to which estimates of I^2 and its confidence interval should be rounded. The default is 0.
-
-## References
-# 1.    Higgins JPT, Thompson SG. Quantifying heterogeneity in a meta-analysis. Statistics in Medicine. 2002;21(11):1539-58.
-
 confint <- function(object, round_h = 2, round_h2 = 2, round_i2 = 0){
   # returning an error if "object" is not the correct object type
   if (!is.element("dosresmetaObject", class(object)))
