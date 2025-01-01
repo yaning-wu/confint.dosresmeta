@@ -15,4 +15,4 @@ example_object <- dosresmeta(formula = logrr ~ dose,
                   data = alcohol_cvd)
 
 # Producing confidence intervals
-confint(example_object) # with defaults
+confint.dosresmeta(example_object) # with defaults
