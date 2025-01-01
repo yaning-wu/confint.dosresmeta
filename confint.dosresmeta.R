@@ -1,4 +1,4 @@
-confint <- function(object, round_h = 2, round_h2 = 2, round_i2 = 0){
+confint.dosresmeta <- function(object, round_h = 2, round_h2 = 2, round_i2 = 0){
   # returning an error if "object" is not the correct object type
   if (!is.element("dosresmetaObject", class(object)))
       stop("Argument 'x' must be an object of class \"dosresmetaObject\".")
